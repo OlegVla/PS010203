@@ -38,7 +38,7 @@ def get_english_words():
             "english_words": english_words.text,
             "word_definition": word_definition.text
         }
-    # Функция, которая сообщит об ошибке, но не остановит программу
+    #Функция, которая сообщит об ошибке, но не остановит программу
     except:
         print("Произошла ошибка")
 
